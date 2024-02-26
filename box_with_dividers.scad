@@ -1,3 +1,8 @@
+/* [Settings:] */
+
+// Thickness of the walls in mm
+wall_thickness = 2; // [1,2,3,4,5]
+
 /* [Dimensions:] */
 
 // Length of the compartment in mm
@@ -8,9 +13,6 @@ width = 50;
 
 // Height of the compartment in mm
 height = 30;
-
-// Thickness of the walls in mm
-wall_thickness = 2;
 
 /* [Compartments:] */
 
