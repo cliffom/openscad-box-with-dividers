@@ -32,8 +32,9 @@ module compartment()
 
 		// Create the inner void
 		translate([ wall_thickness, wall_thickness, wall_thickness ])
-		cube(
-		    [ length - 2 * wall_thickness, width - 2 * wall_thickness, height - wall_thickness ]); // Subtract inner box
+
+		// Subtract inner box
+		cube([ length - 2 * wall_thickness, width - 2 * wall_thickness, height - wall_thickness ]);
 	}
 
 	// Add column dividers if columns > 0
