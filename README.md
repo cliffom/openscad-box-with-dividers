@@ -1,6 +1,11 @@
-# Box w/ Dividers
+# Drawer Organization
 
-OpenSCAD script for creating a box (or more accurately, a tray) with or without dividers.
+OpenSCAD scripts for drawer organization. Includes scripts for trays and spacers.
+
+## Trays
+
+Trays can be generated of any LxWxH with a defined wall thickness. Rows and
+columns can also be defined to generate a tray with dividers.
 
 ## Example
 
